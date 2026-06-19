@@ -1,0 +1,23 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: .docker/Dockerfile
+    stdin_open: true
+    tty: true
+    container_name: app.clinica-driova
+    command: npm run dev
+    environment:
+      NODE_ENV: development
+      CHOKIDAR_USEPOLLING: true
+      CHOKIDAR_INTERVAL: 100
+    ports:
+      - "5173:5173"
+    expose:
+      - "5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      # exclude
+      - /app/.git/
+    working_dir: /app

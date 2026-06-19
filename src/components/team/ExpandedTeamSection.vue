@@ -2,23 +2,23 @@
 import { ref, computed } from 'vue'
 import DoctorDetails from './DoctorDetails.vue'
 
-import iovasorin from '@/assets/doctors/iova-sorin.png'
-import macreasebastian from '@/assets/doctors/macrea-sebastian.png'
-import mogatitus from '@/assets/doctors/moga-titus.png'
-import adrianamaties from '@/assets/doctors/adriana-maties.png';
-import theodornicolau from '@/assets/doctors/theodor-nicolau.png';
-import roxanasamuila from '@/assets/doctors/roxana-samuila.png';
-import mihaelacaba from '@/assets/doctors/mihaela-caba.png';
+import sorinIova from '@/assets/doctors/sorin-iova.png'
+import sebastianMacrea from '@/assets/doctors/sebastian-macrea.png'
+import titusMoga from '@/assets/doctors/titus-moga.png'
+import adrianaMaties from '@/assets/doctors/adriana-maties.png';
+import theodorNicolau from '@/assets/doctors/theodor-nicolau.png';
+import roxanaSamuila from '@/assets/doctors/roxana-samuila.png';
+import mihaelaCaba from '@/assets/doctors/mihaela-caba.png';
 
 const doctors = ref([
-    { id: 1, title: 'Șef lucr. Dr.', name: 'Iova Claudiu Sorin', specialty: 'Medic primar psihiatru', type: 'Medic', bio: 'Coordonatorul clinicii, cu experiență de peste 20 de ani în psihiatrie clinică și cercetare.', image: iovasorin, hasImage: true },
-    { id: 2, title: 'Dr.', name: 'Macrea Sebastian Liviu', specialty: 'Medic specialist psihiatru', type: 'Medic', bio: 'Specializat în tulburări afective și intervenții moderne adaptate fiecărui pacient.', image: macreasebastian, hasImage: true },
-    { id: 3, title: 'As. Univ. Dr.', name: 'Moga Titus', specialty: 'Medic specialist neurolog', type: 'Asistent', bio: 'Interesat de neurologie clinică și cercetare interdisciplinară în neuroștiințe.', image: mogatitus, hasImage: true },
-    { id: 4, title: 'Dr.', name: 'Adriana Maties', specialty: 'Medic specialist psihiatru', type: 'Medic', bio: 'Medic specialist psihiatru dedicat sănătății mintale.', image: adrianamaties, hasImage: true },
-    { id: 5, title: 'Dr.', name: 'Theodor Nicolau', specialty: 'Medic specialist psihiatru', type: 'Medic', bio: 'Medic specialist psihiatru axat pe intervenții personalizate.', image: theodornicolau, hasImage: true },
+    { id: 1, title: 'Șef lucr. Dr.', name: 'Iova Claudiu Sorin', specialty: 'Medic primar psihiatru', type: 'Medic', bio: 'Coordonatorul clinicii, cu experiență de peste 20 de ani în psihiatrie clinică și cercetare.', image: sorinIova, hasImage: true },
+    { id: 2, title: 'Dr.', name: 'Macrea Sebastian Liviu', specialty: 'Medic specialist psihiatru', type: 'Medic', bio: 'Specializat în tulburări afective și intervenții moderne adaptate fiecărui pacient.', image: sebastianMacrea, hasImage: true },
+    { id: 3, title: 'As. Univ. Dr.', name: 'Moga Titus', specialty: 'Medic specialist neurolog', type: 'Asistent', bio: 'Interesat de neurologie clinică și cercetare interdisciplinară în neuroștiințe.', image: titusMoga, hasImage: true },
+    { id: 4, title: 'Dr.', name: 'Adriana Maties', specialty: 'Medic specialist psihiatru', type: 'Medic', bio: 'Medic specialist psihiatru dedicat sănătății mintale.', image: adrianaMaties, hasImage: true },
+    { id: 5, title: 'Dr.', name: 'Theodor Nicolau', specialty: 'Medic specialist psihiatru', type: 'Medic', bio: 'Medic specialist psihiatru axat pe intervenții personalizate.', image: theodorNicolau, hasImage: true },
     { id: 6, title: 'Dr.', name: 'Dorina Petris', specialty: 'Medic primar psihiatru', type: 'Medic', bio: 'Medic primar psihiatru cu experiență în diagnostic și tratament complex.', image: null, hasImage: false },
-    { id: 7, title: 'Dr.', name: 'Roxana Samuila', specialty: 'Medic specialist psihiatrie pediatrică', type: 'Medic', bio: 'Specializată în evaluarea și tratamentul tulburărilor la copii și adolescenți.', image: roxanasamuila, hasImage: true },
-    { id: 8, title: 'Psih.', name: 'Mihaela Caba', specialty: 'Psiholog clinician, logoped', type: 'Psiholog', bio: 'Psiholog clinician cu expertiză în logopedie.', image: mihaelacaba, hasImage: true },
+    { id: 7, title: 'Dr.', name: 'Roxana Samuila', specialty: 'Medic specialist psihiatrie pediatrică', type: 'Medic', bio: 'Specializată în evaluarea și tratamentul tulburărilor la copii și adolescenți.', image: roxanaSamuila, hasImage: true },
+    { id: 8, title: 'Psih.', name: 'Mihaela Caba', specialty: 'Psiholog clinician, logoped', type: 'Psiholog', bio: 'Psiholog clinician cu expertiză în logopedie.', image: mihaelaCaba, hasImage: true },
     { id: 9, title: 'Psih.', name: 'Bianca Gliga', specialty: 'Psiholog clinician, psihoterapeut, logoped', type: 'Psiholog', bio: 'Psiholog clinician dedicat consilierii și dezvoltării personale.', image: null, hasImage: false },
 ])
 
@@ -90,8 +90,8 @@ function backToGrid() {
                             </div>
                         </div>
 
-                        <div class="p-6 flex flex-col flex-grow">
-                            <div class="flex-grow">
+                        <div class="p-6 flex flex-col grow">
+                            <div class="grow">
                                 <p class="text-sm text-gray-500 mb-1">{{ doctor.title }}</p>
                                 <h3 class="text-xl font-semibold mb-1">{{ formatName(doctor.name) }}</h3>
                                 <p class="text-brand-primary font-medium mb-3">{{ doctor.specialty }}</p>

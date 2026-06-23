@@ -11,7 +11,7 @@
             class="container mx-auto px-6 lg:px-16 flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-start gap-12 relative z-10">
             <div class="flex flex-col items-center lg:items-start lg:w-1/3 text-center lg:text-left">
                 <div class="mb-6">
-                    <img src="/logo-inverse.png" alt="Clinica Dr. Iova Logo" class="h-36 w-auto">
+                    <img src="/logo-driova-inverse.png" alt="Clinica Dr. Iova Logo" class="h-36 w-auto">
                 </div>
                 <p class=" leading-relaxed max-w-sm mb-6">
                     Suntem aici pentru tine! Contactează-ne pentru orice întrebare sau pentru a programa o consultație.

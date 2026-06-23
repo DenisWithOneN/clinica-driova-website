@@ -42,7 +42,7 @@
             </div>
 
             <div class="w-full lg:w-1/2 flex justify-center relative">
-                <img src="/src/assets/homepage/homepage-hero-image.png" alt="Clinica Dr. Iova team"
+                <img src="@/assets/homepage/homepage-hero-image.png" alt="Clinica Dr. Iova team"
                     class="max-w-full h-auto block" />
                 <div
                     class="pointer-events-none absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-white via-white/70 to-transparent">

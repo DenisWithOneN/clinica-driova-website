@@ -47,8 +47,8 @@ const specializations = ref([
 <template>
     <div class="relative mt-36 bg-blue-950 text-white py-20 px-4 md:px-6 overflow-hidden">
         <div class="absolute inset-0 bg-cover bg-center
-                    bg-[url('/src/assets/homepage/cta-background-1.svg')] 
-                    md:bg-[url('/src/assets/homepage/cta-background-1.svg')]" aria-hidden="true"></div>
+                    bg-[url('@/assets/homepage/cta-background-1.svg')] 
+                    md:bg-[url('@/assets/homepage/cta-background-1.svg')]" aria-hidden="true"></div>
 
         <div class="relative z-10 container mx-auto flex flex-col items-center max-w-6xl">
             <p class="text-gray-100 uppercase tracking-wider mb-2">SPECIALIZĂRI</p>

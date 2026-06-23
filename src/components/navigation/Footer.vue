@@ -4,7 +4,7 @@
 <template>
     <footer class="py-16 mt-36 text-white relative overflow-hidden">
         <div class="absolute inset-0 bg-cover bg-center bg-no-repeat 
-                    bg-[url('/src/assets/homepage/footer-background.svg')]" aria-hidden="true"></div>
+                    bg-[url('@/assets/homepage/footer-background.svg')]" aria-hidden="true"></div>
         <div class="absolute inset-0 bg-brand-black bg-opacity-90 z-0"></div>
 
         <div

@@ -78,7 +78,7 @@ const getReviewCardClass = (index) => {
             </div>
 
             <div class="lg:w-1/2 flex-col justify-center items-end flex">
-                <img src="/src/assets/gallery/Image4.jpg" alt="Interior Clinică"
+                <img src="@/assets/gallery/Image4.jpg" alt="Interior Clinică"
                     class="rounded-3xl w-auto h-full max-h-160 object-cover" />
             </div>
         </div>

@@ -30,7 +30,7 @@
             </div>
 
             <div class="w-full lg:w-1/2 flex justify-center lg:order-first">
-                <img src="/src/assets/homepage/homepage-about.png" alt="Despre Clinica Dr. Iova"
+                <img src="@/assets/homepage/homepage-about.png" alt="Despre Clinica Dr. Iova"
                     class="max-w-full h-auto block" />
             </div>
 

@@ -50,7 +50,7 @@ onUnmounted(() => {
                     isScrolled ? 'h-20' : 'h-28'
                 ]">
                     <RouterLink :to="{ name: 'home' }">
-                        <img :src="isScrolled ? 'src/assets/logo/logo-driova-icon.png' : 'src/assets/logo/logo-driova.png'" 
+                        <img :src="isScrolled ? '@/assets/logo/logo-driova-icon.png' : '@/assets/logo/logo-driova.png'" 
                             alt="Clinica Dr. Iova Logo" :class="[
                                 'object-contain transition-all duration-300 rounded-lg mr-1',
                                 isScrolled ? 'h-auto w-24' : 'h-auto w-24 lg:w-24'

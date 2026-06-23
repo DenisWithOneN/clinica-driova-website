@@ -52,11 +52,11 @@ onMounted(() => {
 </script>
 
 <template>
-    <section class="bg-white py-20 mt-16">
+    <section class="mt-16 md:mt-20 lg:mt-24 bg-white py-16 md:py-20">
         <div class="container mx-auto px-6">
             <div class="text-center mb-12">
-                <p class="text-brand-primary uppercase tracking-wider font-semibold mb-2">Echipă</p>
-                <h2 class="text-3xl md:text-4xl font-bold">Echipa noastră de specialiști</h2>
+                <p class="eyebrow mb-2">Echipă</p>
+                <h2>Echipa noastră de specialiști</h2>
             </div>
 
             <div class="relative group">

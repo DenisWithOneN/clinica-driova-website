@@ -21,11 +21,11 @@ const googleMapsIframeSrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3
 </script>
 
 <template>
-    <section class="mt-36">
+    <section class="mt-16 md:mt-20 lg:mt-24 py-16 md:py-20">
         <div class="max-w-7xl mx-auto px-6 lg:px-16 flex flex-col lg:flex-row items-start lg:items-stretch gap-12">
             <div class="flex-1 flex flex-col justify-center p-4">
                 <div class="mb-2">
-                    <p class="text-brand-primary uppercase tracking-wider mb-2">CONTACT</p>
+                    <p class="eyebrow mb-2">CONTACT</p>
                     <h2 class="text-gray-800 leading-tight mb-2">
                         Cum ne găsești?
                     </h2>
@@ -38,7 +38,7 @@ const googleMapsIframeSrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3
                 <div class="space-y-4">
                     <div v-for="(item, index) in contactInfo" :key="index"
                         class="flex items-center bg-gray-100 p-3 rounded-3xl">
-                        <div class="flex-shrink-0 mr-3">
+                        <div class="shrink-0 mr-3">
                             <div
                                 class="flex items-center justify-center h-10 w-10 rounded-full bg-brand-primary">
                                 <i :class="['text-white text-xl', item.iconClass]"></i>

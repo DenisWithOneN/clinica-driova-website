@@ -44,7 +44,7 @@ const closeFullscreen = () => {
     <section class="bg-white mt-36">
         <div class="container mx-auto px-6 lg:px-16">
             <div class="flex flex-col items-center mb-12">
-                <p class="text-brand-primary uppercase tracking-wider mb-2">GALERIE</p>
+                <p class="eyebrow mb-2">GALERIE</p>
                 <h1 class="leading-tight mb-4 text-center">
                     Spațiile clinicii noastre
                 </h1>

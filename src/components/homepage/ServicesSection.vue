@@ -45,7 +45,7 @@ const specializations = ref([
 </script>
 
 <template>
-    <div class="relative mt-36 bg-blue-950 text-white py-20 px-4 md:px-6 overflow-hidden">
+    <div class="mt-16 md:mt-20 lg:mt-24 relative text-white py-20 md:py-24 px-4 md:px-6 overflow-hidden">
         <div class="absolute inset-0 bg-cover bg-center
                     bg-[url('@/assets/homepage/cta-background-1.svg')] 
                     md:bg-[url('@/assets/homepage/cta-background-1.svg')]" aria-hidden="true"></div>
@@ -56,36 +56,39 @@ const specializations = ref([
                 Domeniile noastre de expertiză
             </h2>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 lg:gap-6 w-full">
+            <div class="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 lg:gap-4 w-full">
                 <div v-for="(card, index) in specializations" :key="index"
-                    class="w-full h-[22rem] perspective relative mx-auto max-w-[16rem] md:max-w-none">
+                    class="w-full h-24 sm:h-28 md:h-32 lg:h-64 perspective relative mx-auto max-w-full sm:max-w-none">
 
                     <div class="relative w-full h-full preserve-3d transition-transform duration-700"
                         :class="{ 'rotate-y-180': card.flipped }">
 
                         <div
-                            class="absolute inset-0 backface-hidden bg-white rounded-3xl p-5 lg:p-6 flex flex-col items-center justify-center text-center shadow-white shadow-sm ">
+                            class="absolute inset-0 backface-hidden bg-white rounded-2xl p-3 sm:p-4 md:p-4 lg:p-5 flex flex-row lg:flex-col items-center justify-start lg:justify-center text-left lg:text-center shadow-white shadow-sm overflow-hidden">
+                            <div class="shrink-0 w-14 h-14 sm:w-16 sm:h-16 md:w-16 md:h-16 lg:w-20 lg:h-20 flex items-center justify-center mr-3 sm:mr-3 md:mr-3 lg:mr-0 lg:mb-3">
+                                <i v-if="card.isBootstrap" :class="[card.icon, 'text-3xl sm:text-4xl md:text-4xl lg:text-5xl text-brand-primary']"></i>
+                                <img v-else :src="card.icon" alt="" class="w-10 h-10 sm:w-12 sm:h-12 md:w-12 md:h-12 lg:w-14 lg:h-14 object-contain" />
+                            </div>
 
-                            <i v-if="card.isBootstrap" :class="[card.icon, 'text-5xl text-brand-primary mb-6']"></i>
-                            <img v-else :src="card.icon" alt="" class="w-16 h-16 object-contain mb-4" />
-
-                            <h4 class="text-gray-800 mb-2 font-semibold text-lg">{{ card.title }}</h4>
-                            <p class="text-gray-700 text-sm leading-snug">{{ card.description }}</p>
+                            <div class="min-w-0 flex-1 pr-8 lg:pr-0 lg:flex lg:flex-col lg:items-center">
+                                <h4 class="text-gray-800 mb-1 font-semibold text-base sm:text-base md:text-base lg:text-lg leading-tight">{{ card.title }}</h4>
+                                <p class="text-gray-700 text-xs sm:text-xs md:text-sm lg:text-sm leading-snug">{{ card.description }}</p>
+                            </div>
 
                             <button @click="card.flipped = !card.flipped"
                                 class="absolute top-2 right-2 w-auto h-auto bg-white backdrop-blur-sm text-brand-primary rounded-3xl flex items-center justify-center hover:bg-white/50 transition">
-                                <i class="bi bi-hand-index text-2xl -rotate-45 hover:cursor-pointer "></i>
+                                <i class="bi bi-hand-index text-xl -rotate-45 hover:cursor-pointer"></i>
                             </button>
                         </div>
 
                         <div
-                            class="absolute inset-0 backface-hidden rotate-y-180 bg-white rounded-3xl p-5 lg:p-6 flex flex-col items-center justify-center text-center shadow-white shadow-sm">
-                            <h4 class="text-gray-800 mb-3 font-semibold text-lg">{{ card.backTitle }}</h4>
-                            <p class="text-gray-700 leading-relaxed text-xs lg:text-sm">{{ card.backDescription }}</p>
+                            class="absolute inset-0 backface-hidden rotate-y-180 bg-white rounded-2xl p-3 sm:p-4 md:p-4 lg:p-5 flex flex-col items-start lg:items-center justify-center text-left lg:text-center shadow-white shadow-sm overflow-hidden">
+                            <h4 class="text-gray-800 mb-2 font-semibold text-base sm:text-base md:text-base lg:text-lg leading-tight">{{ card.backTitle }}</h4>
+                            <p class="text-gray-700 leading-relaxed text-xs sm:text-xs md:text-sm lg:text-sm">{{ card.backDescription }}</p>
 
                             <button @click="card.flipped = !card.flipped"
                                 class="absolute top-2 right-2 w-auto h-auto bg-white backdrop-blur-sm text-brand-primary rounded-3xl flex items-center justify-center hover:bg-white/50 transition">
-                                <i class="bi bi-hand-index-fill text-2xl -rotate-45"></i>
+                                <i class="bi bi-hand-index-fill text-xl -rotate-45"></i>
                             </button>
                         </div>
                     </div>

@@ -29,7 +29,7 @@ const currentVariant = computed(() => {
 </script>
 
 <template>
-    <div class="relative mt-36 bg-blue-950 text-white py-20 px-6 overflow-hidden">
+    <div class="mt-16 md:mt-20 lg:mt-24 relative bg-blue-950 text-white py-20 md:py-24 px-6 overflow-hidden">
         <div class="absolute inset-0 bg-cover bg-center
                     bg-[url('@/assets/homepage/cta-background-1.svg')] 
                     md:bg-[url('@/assets/homepage/cta-background-1.svg')]" aria-hidden="true"></div>

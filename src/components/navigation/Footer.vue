@@ -5,7 +5,7 @@
     <footer class="py-16 mt-36 text-white relative overflow-hidden">
         <div class="absolute inset-0 bg-cover bg-center bg-no-repeat 
                     bg-[url('@/assets/homepage/footer-background.svg')]" aria-hidden="true"></div>
-        <div class="absolute inset-0 bg-brand-black bg-opacity-90 z-0"></div>
+        <div class="absolute inset-0  bg-opacity-90 z-0"></div>
 
         <div
             class="container mx-auto px-6 lg:px-16 flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-start gap-12 relative z-10">
@@ -73,7 +73,7 @@
                         </li>
                         <li class="flex items-center justify-center lg:justify-start">
                             <i class="bi bi-geo-alt-fill text-brand-primary text-xl mr-3 mt-1"></i>
-                            <span class="max-w-[13rem] md:max-w-none">Strada Ceyrat nr. 31, bloc WR12, SC 1, <br /> Mun.
+                            <span class="max-w-52 md:max-w-none">Strada Ceyrat nr. 31, bloc WR12, SC 1, <br /> Mun.
                                 Oradea, Jud. Bihor, 410660</span>
                         </li>
                     </ul>

@@ -32,7 +32,7 @@
             </div>
 
             <!-- Dreapta -->
-            <div class="w-full lg:w-1/2 p-10 bg-brand-blue-light/5 rounded-2xl flex flex-col gap-10">
+            <div class="w-full lg:w-1/2 p-10 bg-brand-gray rounded-2xl flex flex-col gap-10">
                 <div class="flex flex-col items-center text-center lg:flex-row lg:text-left">
                     <img src="@/assets/homepage/stats/statistici_echipa_medicala_profesionista.svg" alt="Stat Icon"
                         class="w-16 h-16 mb-4 lg:mb-0 lg:mr-8" />

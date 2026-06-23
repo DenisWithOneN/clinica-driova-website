@@ -5,7 +5,7 @@
     <footer class="py-16 mt-36 text-white relative overflow-hidden">
         <div class="absolute inset-0 bg-cover bg-center bg-no-repeat 
                     bg-[url('/src/assets/homepage/footer-background.svg')]" aria-hidden="true"></div>
-        <div class="absolute inset-0 bg-dark-blue bg-opacity-90 z-0"></div>
+        <div class="absolute inset-0 bg-brand-black bg-opacity-90 z-0"></div>
 
         <div
             class="container mx-auto px-6 lg:px-16 flex flex-col lg:flex-row justify-center lg:justify-between items-center lg:items-start gap-12 relative z-10">

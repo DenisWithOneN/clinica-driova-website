@@ -44,7 +44,7 @@ const cards = [
                     </h2>
                 </div>
                 <a href="#"
-                    class="mt-4 md:mt-0 px-4 py-1 w-fit rounded-md text-white bg-brand-dark-blue hover:bg-brand-primary hover:text-white hover:cursor-pointer transition duration-300 ease-in-out text-lg font-medium">
+                    class="mt-4 md:mt-0 px-4 py-1 w-fit rounded-md text-white bg-black hover:bg-brand-primary hover:text-white hover:cursor-pointer transition duration-300 ease-in-out text-lg font-medium">
                     Vezi toate articolele
                 </a>
             </div>

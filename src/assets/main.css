@@ -6,11 +6,11 @@
   --font-open-sans: "Open Sans", sans-serif;
 
   --color-brand-primary: #28AADB;
-  --color-brand-primary-light: #B3E1D4;
-  --color-brand-primary-lighter: #D2F0E2;
-  --color-brand-dark-blue: #0D162D;
-  --color-brand-blue: #183E9F;
-  --color-brand-blue-light: #6C9FEC;
+  --color-brand-secondary: #64EAB6;
+  --color-brand-tertiary: #183E9F;
+  --color-brand-black: #0D162D;
+  --color-brand-white: #FFFFFF;
+  --color-brand-gray: #F6FCFF;
 }
 
 body {

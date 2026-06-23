@@ -89,7 +89,7 @@ const getReviewCardClass = (index) => {
             class="container mx-auto max-w-7xl mt-10 bg-brand-blue rounded-lg p-6 flex flex-col sm:flex-row justify-between items-center text-white">
             <h3 class="text-center sm:text-left mb-4 sm:mb-0">Ai nevoie de o programare?</h3>
             <RouterLink :to="{ name: 'contact' }"
-                class="px-4 py-1 rounded-md text-brand-dark-blue bg-white hover:bg-brand-blue hover:text-white hover:cursor-pointer transition duration-300 ease-in-out text-lg font-medium">
+                class="px-4 py-1 rounded-md text-brand-black bg-white hover:bg-brand-blue hover:text-white hover:cursor-pointer transition duration-300 ease-in-out text-lg font-medium">
                 Programează-te
             </RouterLink>
         </div>

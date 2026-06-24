@@ -19,10 +19,10 @@
                         <i class="bi bi-telephone-fill text-brand-primary text-lg"></i>
                         <span class="text-sm sm:text-base text-brand-black">0359 450 657</span>
                     </div>
-                    <div class="flex items-center justify-center gap-3 lg:justify-start">
+                    <div class="flex  justify-center gap-3 lg:justify-start">
                         <i class="bi bi-geo-alt-fill text-brand-primary text-lg mt-0.5"></i>
                         <span class="text-sm sm:text-base text-center lg:text-left text-brand-black">
-                            Bihor, Oradea, Strada Ceyrat nr. 31, bloc WR12, SC 1
+                            Bihor, Oradea, Strada Ceyrat nr. 31, <br/> bloc WR12, SC 1
                         </span>
                     </div>
                 </div>

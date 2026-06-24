@@ -28,9 +28,9 @@
                 </div>
             </div>
 
-            <div class="flex flex-col lg:flex-row lg:w-2/3 justify-around gap-2 w-full">
+            <div class="flex flex-col lg:flex-row lg:w-2/3 justify-around gap-8 w-full">
                 <div class="w-full lg:w-auto text-center lg:text-left">
-                    <h4 class="mb-6 text-brand-primary">Link-uri rapide</h4>
+                    <h4 class="mb-4 text-brand-white">Link-uri rapide</h4>
                     <ul class="space-y-3">
                         <li>
                             <RouterLink :to="{ name: 'about' }"
@@ -61,30 +61,29 @@
                 </div>
 
                 <div class="w-full lg:w-auto text-center lg:text-left">
-                    <h4 class="mb-6 text-brand-primary">Contact</h4>
-                    <ul class="space-y-4">
+                    <h4 class="mb-4 text-brand-white">Contact</h4>
+                    <ul class="space-y-2">
                         <li class="flex items-center justify-center lg:justify-start">
-                            <i class="bi bi-telephone-fill text-brand-primary text-xl mr-3"></i>
+                            <i class="bi bi-telephone-fill text-brand-white text-xl mr-3"></i>
                             <span>0359 450 657</span>
                         </li>
                         <li class="flex items-center justify-center lg:justify-start">
-                            <i class="bi bi-envelope-fill text-brand-primary text-xl mr-3 mt-1"></i>
+                            <i class="bi bi-envelope-fill text-brand-white text-xl mr-3 mt-1"></i>
                             <span>receptie@clinicadriova.ro</span>
                         </li>
-                        <li class="flex items-center justify-center lg:justify-start">
-                            <i class="bi bi-geo-alt-fill text-brand-primary text-xl mr-3 mt-1"></i>
-                            <span class="max-w-52 md:max-w-none">Strada Ceyrat nr. 31, bloc WR12, SC 1, <br /> Mun.
-                                Oradea, Jud. Bihor, 410660</span>
+                        <li class="flex  justify-center lg:justify-start">
+                            <i class="bi bi-geo-alt-fill text-brand-brand-white text-xl mr-3 mt-1"></i>
+                            <span class=" md:max-w-none">Bihor, Oradea, Strada Ceyrat nr. 31, <br/> bloc WR12, SC 1</span>
                         </li>
                     </ul>
                 </div>
 
                 <div class="w-full lg:w-auto text-center lg:text-left">
-                    <h4 class="mb-6 text-brand-primary">Orarul Clinicii</h4>
+                    <h4 class="mb-6 text-brand-white">Orarul Clinicii</h4>
                     <ul class="space-y-3">
-                        <li><span class="font-semibold">Luni-Vineri:</span> 08:00-20:00</li>
-                        <li><span class="font-semibold">Sâmbătă:</span> închis</li>
-                        <li><span class="font-semibold">Duminică:</span> închis</li>
+                        <li><span>Luni-Vineri:</span> 08:00-20:00</li>
+                        <li><span>Sâmbătă:</span> închis</li>
+                        <li><span>Duminică:</span> închis</li>
                     </ul>
                 </div>
             </div>

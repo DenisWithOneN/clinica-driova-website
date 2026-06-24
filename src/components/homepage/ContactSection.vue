@@ -22,14 +22,14 @@ const googleMapsIframeSrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3
 
 <template>
     <section class="mt-16 md:mt-20 lg:mt-24 py-16 md:py-20">
-        <div class="max-w-7xl mx-auto px-6 lg:px-16 flex flex-col lg:flex-row items-start lg:items-stretch gap-12">
+        <div class="max-w-7xl mx-auto px-6 lg:px-16 flex flex-col lg:flex-row items-center lg:items-stretch gap-12">
             <div class="flex-1 flex flex-col justify-center p-4">
-                <div class="mb-2">
+                <div class="mb-2 text-center lg:text-left">
                     <p class="eyebrow mb-2">CONTACT</p>
-                    <h2 class="text-gray-800 leading-tight mb-2">
+                    <h2 class="text-brand-black leading-tight mb-2">
                         Cum ne găsești?
                     </h2>
-                    <p class="text-gray-700 leading-relaxed max-w-xl mb-0">
+                    <p class="text-brand-black leading-relaxed max-w-xl mb-0">
                         Suntem aici pentru tine! Contactează-ne pentru orice întrebare sau pentru a programa o
                         consultație.
                     </p>

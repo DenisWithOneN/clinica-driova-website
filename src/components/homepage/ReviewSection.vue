@@ -34,15 +34,15 @@ const getReviewCardClass = (index) => {
 </script>
 
 <template>
-    <section class="mt-16 md:mt-20 lg:mt-24 bg-white px-6 py-16 md:py-20">
-        <div class="container mx-auto max-w-7xl mb-10">
+    <section class="mt-16 md:mt-20 lg:mt-24 bg-white px-6 py-12 md:py-20">
+        <div class="container mx-auto max-w-7xl mb-10 text-center lg:text-left ">
             <p class="eyebrow mb-2">TESTIMONIALE</p>
             <div class="flex flex-col lg:flex-row lg:items-start">
                 <h2 class="text-gray-800 leading-tight mb-2 lg:mb-0 md:whitespace-nowrap">
                     Ce spun pacienții noștri?
                 </h2>
                 <div class="pl-0 lg:pl-52 flex-1">
-                    <span class="text-gray-700">
+                    <span class="text-brand-black">
                         Cuvintele pacienților noștri sunt cea mai bună dovadă a dedicării, profesionalismului, empatiei
                         și grijii noastre față de fiecare pacient:
                     </span>
@@ -77,16 +77,16 @@ const getReviewCardClass = (index) => {
                 </div>
             </div>
 
-            <div class="lg:w-1/2 flex-col justify-center items-end flex">
+            <div class="lg:w-1/2 flex justify-center lg:justify-end lg:self-stretch">
                 <img src="@/assets/gallery/Image4.jpg" alt="Interior Clinică"
-                    class="rounded-3xl w-auto h-full object-cover" />
+                    class="rounded-3xl w-full h-64 sm:h-80 lg:h-full object-cover" />
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="mx-6">
         <div
-            class="container mx-auto max-w-7xl bg-brand-tertiary rounded-lg p-6 flex flex-col sm:flex-row justify-between items-center text-white">
+            class="container mx-auto max-w-7xl gap-3 bg-brand-tertiary rounded-lg p-6 flex flex-col sm:flex-row justify-between items-center text-white">
             <h3 class="text-brand-white">Ai nevoie de o programare?</h3>
             <RouterLink :to="{ name: 'contact' }"
                 class="px-4 py-1 rounded-md text-brand-tertiary border-2 border-brand-white bg-brand-white hover:text-brand-white   hover:bg-brand-blue hover:bg-brand-tertiary hover:cursor-pointer transition duration-300 ease-in-out text-lg font-medium">

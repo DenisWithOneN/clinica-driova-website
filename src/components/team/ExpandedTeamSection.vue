@@ -13,7 +13,7 @@ import mihaelaCaba from '@/assets/doctors/mihaela-caba.png';
 const doctors = ref([
     { id: 1, title: 'Șef lucr. Dr.', name: 'Iova Claudiu Sorin', specialty: 'Medic primar psihiatru', type: 'Medic', bio: 'Coordonatorul clinicii, cu experiență de peste 20 de ani în psihiatrie clinică și cercetare.', image: sorinIova, hasImage: true },
     { id: 2, title: 'Dr.', name: 'Macrea Sebastian Liviu', specialty: 'Medic specialist psihiatru', type: 'Medic', bio: 'Specializat în tulburări afective și intervenții moderne adaptate fiecărui pacient.', image: sebastianMacrea, hasImage: true },
-    { id: 3, title: 'As. Univ. Dr.', name: 'Moga Titus', specialty: 'Medic specialist neurolog', type: 'Asistent', bio: 'Interesat de neurologie clinică și cercetare interdisciplinară în neuroștiințe.', image: titusMoga, hasImage: true },
+    { id: 3, title: 'As. Univ. Dr.', name: 'Moga Titus', specialty: 'Medic specialist neurolog', type: 'Medic', bio: 'Interesat de neurologie clinică și cercetare interdisciplinară în neuroștiințe.', image: titusMoga, hasImage: true },
     { id: 4, title: 'Dr.', name: 'Adriana Maties', specialty: 'Medic specialist psihiatru', type: 'Medic', bio: 'Medic specialist psihiatru dedicat sănătății mintale.', image: adrianaMaties, hasImage: true },
     { id: 5, title: 'Dr.', name: 'Theodor Nicolau', specialty: 'Medic specialist psihiatru', type: 'Medic', bio: 'Medic specialist psihiatru axat pe intervenții personalizate.', image: theodorNicolau, hasImage: true },
     { id: 6, title: 'Dr.', name: 'Dorina Petris', specialty: 'Medic primar psihiatru', type: 'Medic', bio: 'Medic primar psihiatru cu experiență în diagnostic și tratament complex.', image: null, hasImage: false },
@@ -66,7 +66,7 @@ function backToGrid() {
             </div>
 
             <div class="flex justify-center gap-4 mb-10 flex-wrap">
-                <button v-for="option in ['Toți', 'Medic', 'Psiholog', 'Asistent']" :key="option" type="button"
+                <button v-for="option in ['Toți', 'Medic', 'Psiholog']" :key="option" type="button"
                     @click="setFilter(option)"
                     class="px-4 py-2 uppercase rounded-xl border text-base font-medium transition" :class="selectedFilter === option
                         ? 'bg-brand-primary text-white border-brand-primary'
@@ -97,12 +97,12 @@ function backToGrid() {
                                 <p class="text-brand-primary font-medium mb-3">{{ doctor.specialty }}</p>
                             </div>
 
-                            <div class="mt-auto pt-4">
+                            <!-- <div class="mt-auto pt-4">
                                 <button type="button" @click="openDoctor(doctor)"
                                     class="bg-brand-primary text-xl text-white px-4 py-2 rounded hover:bg-brand-primary/90 hover:cursor-pointer transition-all flex items-center justify-center w-full">
                                     Află mai multe
                                 </button>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

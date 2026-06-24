@@ -10,7 +10,7 @@
   --color-brand-tertiary: #183E9F;
   --color-brand-black: #0D162D;
   --color-brand-white: #FFFFFF;
-  --color-brand-gray: #FAFCFD;
+  --color-brand-gray: #F6FAFC;
 }
 
 body {
@@ -24,7 +24,7 @@ body {
   }
 
   h1 {
-    @apply text-4xl sm:text-5xl lg:text-5xl font-black;
+    @apply text-3xl sm:text-5xl lg:text-5xl font-black;
   }
 
   h2 {
